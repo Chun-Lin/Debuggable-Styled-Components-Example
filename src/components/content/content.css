@@ -65,18 +65,18 @@
 }
 
 
-.content__info--title{
+.content__title{
   padding: 20px 0 0 20px;
   font-size: 48px;
 }
 
-.content__info--description{
+.content__description{
   padding: 20px;
   font-size: 30px;
   font-style: italic;
   color: #888888;
 }
 
-.content__info--bold{
+.content--bold{
   font-weight: bold;
 }

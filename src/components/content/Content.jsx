@@ -9,17 +9,17 @@ export default ({ bold }) => {
   }
 
   /* add new css classes */
-  let titleStyles = ['content__info--title']
+  let titleStyles = ['content__title']
   if (bold) {
-    titleStyles.push('content__info--bold')
+    titleStyles.push('content--bold')
   }
 
   return (
     <div className="content">
       <div className="content__img" />
       <div className="content__info">
-        <div className={titleStyles.join(' ')}>Beautiful Photo</div>
-        <div className="content__info--description">
+        <div className="content__title">Cute Puppy</div>
+        <div className="content__description">
           Sed ut voluptatem neque cumque. Qui sed ut itaque est doloribus qui.
           Eos perferendis autem qui fugiat.
         </div>
