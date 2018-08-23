@@ -25,6 +25,7 @@ const InfoWrapper = styled.div`
 const Title = styled.div`
   padding: 20px 0 0 20px;
   font-size: 48px;
+  color: ${props => (props.skyblue ? 'skyblue' : 'black')};
 `
 
 const Description = styled.div`
@@ -39,7 +40,7 @@ export default ({ skyblue }) => {
     <ContentWrapper>
       <Img />
       <InfoWrapper>
-        <Title>Cute Puppy</Title>
+        <Title skyblue>Cute Puppy</Title>
         <Description>
           Sed ut voluptatem neque cumque. Qui sed ut itaque est doloribus qui.
           Eos perferendis autem qui fugiat.
