@@ -50,6 +50,49 @@ const StyledContent = styled(Content)`
       color: #888888;
     }
   }
+
+  @media (max-width: 992px) {
+  
+    display: block;
+    width: 600px;
+    height: 300px; 
+
+    .content__img{
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://picsum.photos/600/300?image=1062');
+    }
+    
+    .content__info{
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 600px){
+  
+    display: block;
+    width: 300px;
+    height: 300px;
+  
+    .content__img{
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://picsum.photos/300/300?image=1062');
+    }
+    
+    .content__info{
+      display: block;
+      width: 300px;
+      height: 100%;
+      text-align: center;
+    }
+  }
+}
 `
 
 export default StyledContent
