@@ -40,7 +40,7 @@ export default ({ skyblue }) => {
     <ContentWrapper>
       <Img />
       <InfoWrapper>
-        <Title skyblue>Cute Puppy</Title>
+        <Title skyblue={skyblue}>Cute Puppy</Title>
         <Description>
           Sed ut voluptatem neque cumque. Qui sed ut itaque est doloribus qui.
           Eos perferendis autem qui fugiat.
