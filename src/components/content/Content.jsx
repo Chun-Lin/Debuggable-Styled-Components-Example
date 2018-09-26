@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Content = ({ skyblue, className }) => {
+const Content = ({ className }) => {
   return (
     <div className={className}>
       <div className="content__img" />
       <div className="content__info">
-        <div className="content__title" skyblue>
+        <div className="content__title">
           Cute Puppy
         </div>
         <div className="content__description">
